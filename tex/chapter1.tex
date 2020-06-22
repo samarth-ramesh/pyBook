@@ -1,0 +1,64 @@
+\chapter{Hello World}
+Python is a programming language, developed by the Python Software Foundation and released under the PSFL License. I quote Wikipedia: \begin{quotation}
+`Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.'
+\end{quotation}
+For those who have never programmed in their lives, Python offers an easy in, as the language is very easy to both read and use.
+\section{Python installed?}
+To check if you have Python already installed, open the command prompt and type \begin{quote}
+Python
+\end{quote}
+If Python is installed, the command prompt should reply
+\begin{quote}\emph{
+lorem ipsum dor\\ must add windows output}
+\end{quote}
+If Python is not installed, go to www.Python.org/downloads/\\
+Now that all of us have Python installed on our computrs, we may begin or exploration of the language.
+\section{First program}
+Finally, our first program. Our aim is to print the statement "Hello World" (Interestingly, the tradition began with Ritchie \& Kerningham's book `The C Programming Language')\\
+In Python 3, the statement \emph{print()} is used to print a statement, with statement in \emph{either} single \emph{or} double quotes.in other words,
+
+\section{Variable Variables}
+Now that we have started working with the print() function, we may further explore it.\\
+the print function can also print the value of variables.
+\begin{quote}
+somevariable="Hello World, I am a variable"\newline
+print(somevariable)
+\end{quote}
+returns
+\begin{quote}
+Must add output
+\end{quote}
+The variable can the be reset to another value if needed.\\ In short, a single 'equals' mark indicates assignment of a variable.
+\section{Arithmetic}
+Python, like most programming languages has basic math in it's Standard Library. The four symbols, `+' `-' `*' and `/' are used with both variables an constants.
+\newpage For example to find and print the product of 256 and 456, we can use:
+\begin{quote}
+a=256\\b=456\\c=a*b\\print(c)
+\end{quote}
+or
+\begin{quote}
+a=256\\b=456\\print(a*b)
+\end{quote}
+or
+\begin{quote}
+print(256*456)
+\end{quote}
+While all three of them return the same result, all three of them have diiferent uses. The first is used while `Debugging', the second in most programs where brevity is needed and the third while using Python as a calculator.\\
+The  \emph{print()} function takes both variables and strings as inputs and can concatenate the values of both inplace. thus, to give more clarity to the end user, a statement may also be included. for example, to calculate the value of 234*235 and give a statement about the same, the following two scripts may be used
+\begin{quote}
+a=256\\b=456\\print("The product of the given variables is" ,  a*b)
+\end{quote}
+or
+\begin{quote}
+a=256\\b=456\\c="The product of the given variables is"  \\print(c,a*b)
+\end{quote}
+Multiple such variables may be referred so, a similiar but better program can also list the values that are being multiplied by name, ie.  
+\begin{quote}
+a=256\\b=456\\print("The product of " , a ,",", b ,"is" ,  a*b)
+\end{quote}
+\section{Excercise}
+\begin{enumerate}
+\item Write a program to convert \emph{Celsius} to\emph{Fahrenhiet} for a given temperature $t=45^{\circ}$C.
+\item Write a program that calculates the average of three numbers $189086,127809,1567801$.
+\end{enumerate}
+

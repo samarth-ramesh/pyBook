@@ -1,0 +1,79 @@
+\chapter{Control Flow}
+So far, our programs have dealt with direct statements and have not had to make any decisions. The backbone of most languages is the \emph{if} statement.\\ 
+In the first chapter, while introducing python, I had quoted wikepedia and wrote:
+\begin{quote}
+Python's design philosophy emphasizes code readability with its notable use of significant whitespace.
+\end{quote}
+in other words, every whitespace, that is a group characters representing horizontal or vertical space, for the purpose of improving readability and in the case of Python demarcating blocks of code,is
+, an indentation, a space or a newline. The use of indentation, while optional in many other languages, is as a result, compulsory in Python. 
+The beginning of a code block is marked by an increase in indentation and the end with the decrease in indentation.
+\section{The \emph{if} statement}
+The \emph{if}-statement has the following syntax
+\begin{quote}
+if condition :\\
+\tab effect
+\end{quote}
+Note the use of a colon at the end of the condition. It is what instructs the compiler to look at the next indentation.\\
+For example,  the following script tests if two given numbers are equal or not.
+\begin{quote}
+a=25\\
+b=30\\
+if a==b:\\
+\tab print("a=b")
+\end{quote}
+However, the \emph{if} conditional also includes support for \emph{else} with a similiar syntax.\\
+So a program to check if a number is greater than, lesser than or equal to another number, we can write:
+\begin{quote}
+a=17890
+b=12908
+if a$>$b:\\
+\tab print("a $\>$ b")\\
+else:\\ 
+\tab if a$<$b:\\
+\tab \tab print("a$<$b")\\
+else:\\
+\tab print("a=b")
+\end{quote}
+For the sake of brevity, Python also supports elif statement that allow us to say "if the above statement was false, then see if this statement is true"\\
+thus, the above script can be rewritten as 
+\begin{quote}
+if a$>$b:\\
+\tab print(a$>b$)\\
+elif a$<$b:\\
+\tab print(a$<b$)\\
+else:\\
+\tab print(a$=b$)
+\end{quote}
+\section{\emph{For} loops}
+The \emph{for} loop is widely regarded as the workhorse of most languages and is used to execute a certain block of code multiple times.\\
+Like the \emph{if} conditional, the \emph{for} loop also needs a new level of indentation. The loop, uses the following syntax
+\begin{quote}
+for somevariable in iterable : \#or sequence\\
+\tab do this\\
+after exiting do this
+\end{quote}
+The `something' initially is generally range(somethingelse), where `somethingelse' is a number. The range function by default starts counting from 0.
+so a script to calculate the various values in fahrenhiet of temperatures in celsius starting from $10^\circ$ to $100^\circ$ with increments of 10 would be
+\begin{quote}
+x=0 \tab \#initialzes a variable x to 0 to be safe\\
+for x in range(9): \tab \#we use 10, while 0-10 includes 11 numbers, the range excludes the last number\\
+\tab celsius=(10*(x+1)) \tab \#getting the celsius from numbers\\
+\tab fahr=((1.8*celsius)+32) \tab \#converting celsius to fahr\\
+\tab print(celsius, "degrees C =" , fahr , "degrees F")
+\end{quote}
+The script if entered from the command prompt would take time to enter in one by one, and often tends to be more trouble than it it worth. However, if you used some text editor or ide, then the program would have run.\\
+So far, we have dealt only with simple and basic programs that did not have many loops and conditionals. however, as our journey progresses, the comple will only grow. Until now, we have started python from the command prompt using the \emph{python} command. Henceforth, it is recommened that you use an IDE or something like notepad++ (for windows), save the script as something.py, then from the command prompt, cd to the working directory and finally pass the filename as an argument to python.\\ 
+in other words, follow the given steps:
+\begin{enumerate}
+\item First, open the command prompt by searching for 'cmd'
+\iem  Then, enter the command 'mkdir python'
+\item And next enter the command 'cd python'
+\item Then in notepad++, type and write your script, and save it into the folder you just created
+\item Then, if the name of the script is say script.py, the type "python script.py"
+\end{enumerate}
+\newpage
+\section{Excercises}
+\begin{enumerate}
+\item Create a program to write the multiplication tables of the first 10 numbers, upto 10 (that is, the program must return the times tables from x*1 to x*10, for all x between 1 and 10, both included)
+\item Create a general program to calculate the average of `n' numbers, where every third natural number upto 25 is taken.(that is, if later on the limit increases, the program remains the same)
+\end{enumerate}
