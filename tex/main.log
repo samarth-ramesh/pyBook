@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  25 JUN 2020 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  25 JUN 2020 15:35
 entering extended mode
 **./main.tex
 (main.tex
@@ -165,79 +165,42 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <149.37697> not available
 
 ]
 Chapter 1.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.14 \>
-       \>\>
-? k
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
-
-! LaTeX Error: Command \end{quote} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \end{quote}
-                
-? 
-! Incompatible glue units.
-\endtrivlist ...@noparlist \else \ifdim \lastskip 
-                                                  >\z@ \@tempskipa \lastskip...
-l.15 \end{quote}
-                
-? 
-! Incompatible glue units.
-<recently read> \lastskip 
-                          
-l.15 \end{quote}
-                
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.15 \end{quote}
-                
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-
- []
-
-[3] [4]
-Overfull \hbox (73.35072pt too wide) in paragraph at lines 71--72
+[3]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 5
+4.
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+ [4] [5]
+Overfull \hbox (73.35072pt too wide) in paragraph at lines 100--101
 []\OT1/cmr/m/n/12 Write a pro-gram that cal-cu-lates the av-er-age of three num
 -bers $189086\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 127809\OML/cmm/m/it/12 ; \OT1/c
 mr/m/n/12 1567801$. 
  []
 
-[5]) (chapter2.tex [6]
-Chapter 2.
-[7
+[6]) (chapter2.tex [7] [8
 
-] [8] [9]) [10] (main.aux)
+]
+Chapter 2.
+[9] [10] [11]) [12] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 2305 strings out of 480930
- 34864 string characters out of 2909521
+ 2323 strings out of 480930
+ 35164 string characters out of 2909521
  284722 words of memory out of 3000000
- 18162 multiletter control sequences out of 15000+200000
+ 18177 multiletter control sequences out of 15000+200000
  538556 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,29p,551b,259s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -247,11 +210,12 @@ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
-Output written on main.pdf (10 pages, 109632 bytes).
+c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb>
+Output written on main.pdf (12 pages, 119420 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

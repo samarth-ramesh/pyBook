@@ -11,7 +11,7 @@ If Python is installed, the command prompt should reply
 \begin{quote}
 Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32\\
 Type "help", "copyright", "credits" or "license" for more information.\\
-$\>\>\>$
+$>>>$
 \end{quote}
 If Python is not installed, go to www.python.org/downloads/\\
 Now that all of us have Python installed on our computrs, we may begin or exploration of the language.
@@ -23,9 +23,44 @@ Would simply return:
 \begin{quote}
 Hello World!
 \end{quote}
-In Python 3, the statement \emph{print()} was used to print a statement, in our case a string which was enclosed in double quotes.It is also important to note that in Python 3, \emph{print()} statement will automaticaly generate a newline upon printing all the statements passed to it.
-
-
+In Python 3, the statement \emph{print()} was used to print a statement, which in the above case was a string which was enclosed in double quotes. 
+If we so desire, we may also print multiple strings at the same time using the \emph{print()} function as shown:
+\begin{quote}
+print("Hello World!","Hoorah!!")
+\end{quote}
+which would return
+\begin{quote}
+Hello World! Hoorah!!
+\end{quote}
+The \emph{print()} function inserts a newline after printing the arguments passed to it. So in other words,
+\begin{quote}
+print("Hello World!","Hoorah!!")
+\end{quote}
+and 
+\begin{quote}
+print("Hello World!")\\
+print("Hoorah!!")
+\end{quote}
+Would return two different outputs as shown
+\begin{quote}
+Hello World! Hoorah!!
+\end{quote}
+and 
+\begin{quote}
+Hello World!\\
+Hoorah!!
+\end{quote}
+respectively.\\
+To force the printing of a newline, we use "\textbackslash n" in our string as shown.
+\begin{quote}
+print("Hello World! \textbackslash n Hoorah!!")
+\end{quote}
+The above script returns the same output as:
+\begin{quote}
+print("Hello World!")\\
+print("Hoorah!!")
+\end{quote}
+But is generally preferred for the sake of brevity.
 \section{Variable Variables}
 Now that we have started working with the print() function, we may further explore it.\\
 the print function can also print the value of variables.
