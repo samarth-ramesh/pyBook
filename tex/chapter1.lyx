@@ -1,0 +1,974 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin C:/Users/Varsha Ramesh/Documents/pyBook/tex/
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+chapter{Hello World}
+\end_layout
+
+\end_inset
+
+ Python is a programming language, developed by the Python Software Foundation and released under the PSFL License. I quote Wikipedia: 
+\end_layout
+
+\begin_layout Quotation
+`Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. 
+\end_layout
+
+\begin_layout Standard
+For those who have never programmed in their lives, Python offers an easy in of sorts, as the language is very easy to both read and use. 
+\end_layout
+
+\begin_layout Section
+Python installed?
+\end_layout
+
+\begin_layout Standard
+To check if you have Python already installed, open the command prompt and type 
+\end_layout
+
+\begin_layout Quote
+Python 
+\end_layout
+
+\begin_layout Standard
+If Python is installed, the command prompt should reply 
+\end_layout
+
+\begin_layout Quote
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] on win32
+\begin_inset Newline newline
+\end_inset
+
+ Type 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+help
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+copyright
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+credits
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ or 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+license
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ for more information.
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $>>>$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+However, if you don't see a message like above, but instead see: 
+\end_layout
+
+\begin_layout Quote
+'python' is not recognized as an internal or external command,
+\begin_inset Newline newline
+\end_inset
+
+ operable program or batch file. 
+\end_layout
+
+\begin_layout Standard
+then, you don't have a copy of Python on your computer. To install Python, go to www.python.org/downloads/ and follow the instructions
+\begin_inset Newline newline
+\end_inset
+
+ Now that all of us have Python installed on our computrs, we may begin or exploration of the language. 
+\end_layout
+
+\begin_layout Section
+First program
+\end_layout
+
+\begin_layout Standard
+Finally, our first program. Our aim is to print the statement 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hello World
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ (Interestingly, the tradition began with Ritchie & Kerningham's book `The C Programming Language')
+\end_layout
+
+\begin_layout Quote
+print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hello World!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+Would simply return: 
+\end_layout
+
+\begin_layout Quote
+Hello World! 
+\end_layout
+
+\begin_layout Standard
+In Python 3, the statement 
+\emph on
+print()
+\emph default
+ was used to print a statement, which in the above case was a string which was enclosed in 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+double quotes
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+. 
+\end_layout
+
+\begin_layout Section
+More Printing
+\end_layout
+
+\begin_layout Standard
+If we so desire, we may also print multiple strings at the same time using the 
+\emph on
+print()
+\emph default
+ function as shown: 
+\end_layout
+
+\begin_layout Quote
+print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hello World!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+,
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hoorah!!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+which would return 
+\end_layout
+
+\begin_layout Quote
+Hello World! Hoorah!! 
+\end_layout
+
+\begin_layout Standard
+The 
+\emph on
+print()
+\emph default
+ function inserts a newline after printing the arguments passed to it. So in other words, 
+\end_layout
+
+\begin_layout Quote
+print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hello World!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+,
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hoorah!!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+and 
+\end_layout
+
+\begin_layout Quote
+print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hello World!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+)
+\begin_inset Newline newline
+\end_inset
+
+ print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hoorah!!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+Would return two different outputs as shown 
+\end_layout
+
+\begin_layout Quote
+Hello World! Hoorah!! 
+\end_layout
+
+\begin_layout Standard
+and 
+\end_layout
+
+\begin_layout Quote
+Hello World!
+\begin_inset Newline newline
+\end_inset
+
+ Hoorah!! 
+\end_layout
+
+\begin_layout Standard
+respectively.
+\begin_inset Newline newline
+\end_inset
+
+ To force the printing of a newline, we use 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\backslash
+n
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ in our string as shown. 
+\end_layout
+
+\begin_layout Quote
+print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hello World! 
+\backslash
+n Hoorah!!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+The above script returns the same output as: 
+\end_layout
+
+\begin_layout Quote
+print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hello World!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+)
+\begin_inset Newline newline
+\end_inset
+
+ print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hoorah!!
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Standard
+But the former is generally preferred for the sake of brevity. 
+\end_layout
+
+\begin_layout Section
+Variable Variables
+\end_layout
+
+\begin_layout Standard
+Now that we have started using the 
+\emph on
+print()
+\emph default
+ function, we may further explore it.
+\begin_inset Newline newline
+\end_inset
+
+ the print function can also print the value of variables. 
+\end_layout
+
+\begin_layout Quote
+somevariable=
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Hello World, I am a variable
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ print(somevariable) 
+\end_layout
+
+\begin_layout Standard
+returns 
+\end_layout
+
+\begin_layout Quote
+Hello World, I am a variable 
+\end_layout
+
+\begin_layout Standard
+The variable can the be reset to another value if needed.
+\begin_inset Newline newline
+\end_inset
+
+ In short, a single 'equals' mark indicates assignment of a variable. The entire process can be described as: 
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset Graphics 
+	filename variableflowchart
+	scale 25
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
+ In Python, all variables are not 
+\emph on
+declared
+\emph default
+, they are 
+\emph on
+assigned
+\emph default
+. This highlights the fact that Python is Dynamically typed.
+\begin_inset Newline newline
+\end_inset
+
+ Dynamically typed means that the type of a variable is checked during run-time, and not during 
+\emph on
+declaration
+\emph default
+. 
+\begin_inset Newline newline
+\end_inset
+
+ Note: A language is statically-typed if the type of a variable is known at compile-time instead of at run-time. 
+\end_layout
+
+\begin_layout Section
+Arithmetic
+\end_layout
+
+\begin_layout Standard
+Python, like most programming languages has basic math in it's Standard Library. The four symbols, `+' `-' `*' and `/' are used with both variables an constants. 
+\begin_inset Newpage newpage
+\end_inset
+
+For example to find and print the product of 256 and 456, we can use: 
+\end_layout
+
+\begin_layout Quote
+a=256
+\begin_inset Newline newline
+\end_inset
+
+b=456
+\begin_inset Newline newline
+\end_inset
+
+c=a*b
+\begin_inset Newline newline
+\end_inset
+
+print(c) 
+\end_layout
+
+\begin_layout Standard
+or 
+\end_layout
+
+\begin_layout Quote
+a=256
+\begin_inset Newline newline
+\end_inset
+
+b=456
+\begin_inset Newline newline
+\end_inset
+
+print(a*b) 
+\end_layout
+
+\begin_layout Standard
+or 
+\end_layout
+
+\begin_layout Quote
+print(256*456) 
+\end_layout
+
+\begin_layout Standard
+While all three of them return the same result, all three of them have diiferent uses. The first is used while `Debugging', the second in most programs where brevity is needed and the third while using Python as a calculator.
+\begin_inset Newline newline
+\end_inset
+
+ The 
+\emph on
+print()
+\emph default
+ function takes both variables and strings as inputs and can concatenate the values of both inplace. thus, to give more clarity to the end user, a statement may also be included. for example, to calculate the value of 234*235 and give a statement about the same, the following two scripts may be used 
+\end_layout
+
+\begin_layout Quote
+a=256
+\begin_inset Newline newline
+\end_inset
+
+b=456
+\begin_inset Newline newline
+\end_inset
+
+print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+The product of the given variables is
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ , a*b) 
+\end_layout
+
+\begin_layout Standard
+or 
+\end_layout
+
+\begin_layout Quote
+a=256
+\begin_inset Newline newline
+\end_inset
+
+b=456
+\begin_inset Newline newline
+\end_inset
+
+c=
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+The product of the given variables is
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+print(c,a*b) 
+\end_layout
+
+\begin_layout Standard
+Multiple such variables may be referred so, a similiar but better program can also list the values that are being multiplied by name, ie. 
+\end_layout
+
+\begin_layout Quote
+a=256
+\begin_inset Newline newline
+\end_inset
+
+b=456
+\begin_inset Newline newline
+\end_inset
+
+print(
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+The product of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ , a ,
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+,
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+, b ,
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+is
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ , a*b) 
+\end_layout
+
+\begin_layout Section
+Excercise
+\end_layout
+
+\begin_layout Enumerate
+Write a program to convert 
+\emph on
+Celsius
+\emph default
+ to
+\emph on
+Fahrenhiet
+\emph default
+ for a given temperature 
+\begin_inset Formula $t=45^{\circ}$
+\end_inset
+
+C. 
+\end_layout
+
+\begin_layout Enumerate
+Write a program that calculates the average of three numbers 
+\begin_inset Formula $189086,127809,1567801$
+\end_inset
+
+. 
+\end_layout
+
+\end_body
+\end_document
