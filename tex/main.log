@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  25 JUN 2020 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.6.26)  26 JUN 2020 22:35
 entering extended mode
 **./main.tex
 (main.tex
@@ -108,12 +108,70 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count178
-\l__pdf_internal_box=\box45
+("C:\Users\Varsha Ramesh\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\adjustb
+ox.sty"
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
 )
-(main.aux)
+\XKV@depth=\count178
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\Varsha Ramesh\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\adjcalc
+.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Users\Varsha Ramesh\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\trimcli
+p.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+("C:\Users\Varsha Ramesh\AppData\Roaming\MiKTeX\2.9\tex/latex/collectbox\collec
+tbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box45
+)
+\tc@llx=\dimen138
+\tc@lly=\dimen139
+\tc@urx=\dimen140
+\tc@ury=\dimen141
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Users\Varsha Ramesh\AppData\Roaming\MiKTeX\2.9\tex/latex/adjustbox\tc-pdft
+ex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen142
+\adjbox@Height=\dimen143
+\adjbox@Depth=\dimen144
+\adjbox@Totalheight=\dimen145
+\adjbox@pwidth=\dimen146
+\adjbox@pheight=\dimen147
+\adjbox@pdepth=\dimen148
+\adjbox@ptotalheight=\dimen149
+
+("C:\Users\Varsha Ramesh\AppData\Roaming\MiKTeX\2.9\tex/latex/ifoddpage\ifoddpa
+ge.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count179
+)
+("C:\Users\Varsha Ramesh\AppData\Roaming\MiKTeX\2.9\tex/latex/varwidth\varwidth
+.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box46
+\sift@deathcycles=\count180
+\@vwid@loff=\dimen150
+\@vwid@roff=\dimen151
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count181
+\l__pdf_internal_box=\box47
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -132,17 +190,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
  ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count179
-\scratchdimen=\dimen138
-\scratchbox=\box46
-\nofMPsegments=\count180
-\nofMParguments=\count181
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count182
-\MPscratchDim=\dimen139
-\MPnumerator=\count183
-\makeMPintoPDFobject=\count184
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count182
+\scratchdimen=\dimen152
+\scratchbox=\box48
+\nofMPsegments=\count183
+\nofMParguments=\count184
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count185
+\MPscratchDim=\dimen153
+\MPnumerator=\count186
+\makeMPintoPDFobject=\count187
+\everyMPtoPDFconversion=\toks21
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -179,32 +237,63 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+<images/variableflowchart.png, id=20, 883.3pt x 327.2225pt>
+File: images/variableflowchart.png Graphic file (type png)
+<use images/variableflowchart.png>
+Package pdftex.def Info: images/variableflowchart.png  used on input line 85.
+(pdftex.def)             Requested size: 220.82446pt x 81.80542pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--90
+
+ []
+
+[5 <./images/variableflowchart.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
+
+ []
 
 
-! Package keyval Error: right undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 91--94
 
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 ...phics[scale=0.2, right]{variableflowchart}
-                                                  
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.85 ...phics[scale=0.2, right]{variableflowchart}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
- 
+[6]
+Overfull \hbox (73.35072pt too wide) in paragraph at lines 121--122
+[]\OT1/cmr/m/n/12 Write a pro-gram that cal-cu-lates the av-er-age of three num
+-bers $189086\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 127809\OML/cmm/m/it/12 ; \OT1/c
+mr/m/n/12 1567801$. 
+ []
+
+) (chapter2.tex [7] [8
+
+]
+Chapter 2.
+[9] [10] [11]) [12] (main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 124.49696pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2317 strings out of 480930
- 35129 string characters out of 2909521
- 284721 words of memory out of 3000000
- 18176 multiletter control sequences out of 15000+200000
- 538197 words of font info for 43 fonts, out of 3000000 for 9000
+ 3343 strings out of 480930
+ 52286 string characters out of 2909521
+ 302880 words of memory out of 3000000
+ 19161 multiletter control sequences out of 15000+200000
+ 538556 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,29p,411b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 38i,10n,39p,551b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb>
+Output written on main.pdf (12 pages, 140932 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
