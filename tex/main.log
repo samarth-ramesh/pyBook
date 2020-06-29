@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.6.26)  29 JUN 2020 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.6.26)  29 JUN 2020 13:23
 entering extended mode
 **./main.tex
 (main.tex
@@ -240,45 +240,48 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 <images/variableflowchart.png, id=20, 883.3pt x 327.2225pt>
 File: images/variableflowchart.png Graphic file (type png)
 <use images/variableflowchart.png>
-Package pdftex.def Info: images/variableflowchart.png  used on input line 85.
+Package pdftex.def Info: images/variableflowchart.png  used on input line 87.
 (pdftex.def)             Requested size: 220.82446pt x 81.80542pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--91
+Underfull \hbox (badness 10000) in paragraph at lines 84--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--91
+Underfull \hbox (badness 10000) in paragraph at lines 84--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--91
-
- []
-
-[5 <./images/variableflowchart.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 84--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
 
  []
 
-[6]
-Overfull \hbox (73.35072pt too wide) in paragraph at lines 116--117
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
+
+ []
+
+[6 <./images/variableflowchart.png>] [7]
+Overfull \hbox (73.35072pt too wide) in paragraph at lines 118--119
 []\OT1/cmr/m/n/12 Write a pro-gram that cal-cu-lates the av-er-age of three num
 -bers $189086\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 127809\OML/cmm/m/it/12 ; \OT1/c
 mr/m/n/12 1567801$. 
  []
 
-) (chapter2.tex [7] [8
-
-]
+) (chapter2.tex [8]
 Chapter 2.
-[9] [10] [11]) [12] (main.aux)
+[9
+
+] [10] [11]) [12] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 124.49696pt have occurred.
@@ -301,7 +304,7 @@ e1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb>
-Output written on main.pdf (12 pages, 141616 bytes).
+Output written on main.pdf (12 pages, 141940 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

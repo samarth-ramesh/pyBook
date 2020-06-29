@@ -67,7 +67,9 @@ The above script returns the same output as:
 print("Hello World!")\\
 print("Hoorah!!")
 \end{quote}
-But the former is generally preferred for the sake of brevity.
+But the former is preferred for the sake of brevity.\\
+In a similiar manner, we may also format output with "\textbackslash t" to force a new tab, and "\textbackslash r" to force the cursor to return to the start of the line.\\
+It is useful to know that "\textbackslash" character is also called an "Escape Character", that converts a special(reserved) symbol into an ordinary character.
 \section{Variable Variables}
 Now that we have started using the \emph{print()} function, we may further explore it.\\
 the print function can also print the value of variables.
@@ -89,16 +91,16 @@ In Python, all variables are not \emph{declared}, they are \emph{assigned}. This
 NB: A language is statically-typed if the type of a variable is known at compile-time instead of at run-time. A more comprehensive list of differences can be found in Appendix A
 \\ \\
 
-We may also print multiple variables at the same time, as with strings, in a similiar fashion. For example:
+We may also print multiple variables and/or strings at the same time, as with strings, in a similiar fashion. For example:
 \begin{quote}
 var1="abc"\\
 var2="def"\\
-print(var1,var2)
+print(var1,var2,"ghi")
 \end{quote}
 
 Which would return 
 \begin{quote}
-abc def
+abc def ghi
 \end{quote}
 
 \section{Arithmetic}
