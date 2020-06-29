@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.6.26)  29 JUN 2020 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.6.26)  29 JUN 2020 14:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -271,7 +271,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--110
  []
 
 [6 <./images/variableflowchart.png>] [7]
-Overfull \hbox (73.35072pt too wide) in paragraph at lines 118--119
+Overfull \hbox (73.35072pt too wide) in paragraph at lines 130--131
 []\OT1/cmr/m/n/12 Write a pro-gram that cal-cu-lates the av-er-age of three num
 -bers $189086\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 127809\OML/cmm/m/it/12 ; \OT1/c
 mr/m/n/12 1567801$. 
@@ -304,7 +304,7 @@ e1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb>
-Output written on main.pdf (12 pages, 141940 bytes).
+Output written on main.pdf (12 pages, 142412 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

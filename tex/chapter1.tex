@@ -110,7 +110,19 @@ Python, like most programming languages has some basic math in it's Standard Lib
 \begin{quote}
 a=256\\b=456\\c=a*b\\print(c)
 \end{quote}
-The  \emph{print()} function takes both variables and strings as inputs and can concatenate the values of both inplace. thus, to give more clarity to the end user, a statement can also be included. For example, to calculate the value of $234\times 235$ and give a statement about the same, the following two scripts may be used
+As explained before, the  \emph{print()} function takes both variables and strings as inputs concatenates the values of both inplace.This, allows us to easily dot the i's and cross the t's. For example, to calculate the value of $234/2$ and print it's value, the following scipt can be used:
+
+\begin{quote}
+num=234\\
+dividend=2\\
+print(num/dividend)
+\end{quote}
+would return:
+\begin{quote}
+117.0
+\end{quote}
+
+Note that the shell returns 117.0 and not 117. In Python, the presence of a decimal is indicative of the number being a /emph{floating point} number(It will be covered later on). In short, it cannot be compared to an integer (A number without a decimal point).
 \newpage	
 \section{Excercise}
 \begin{enumerate}
