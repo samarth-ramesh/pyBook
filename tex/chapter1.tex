@@ -98,13 +98,13 @@ var2="def"\\
 print(var1,var2,"ghi")
 \end{quote}
 
-Which would return 
+Which would return:
 \begin{quote}
 abc def ghi
 \end{quote}
 
-\section{Arithmetic}
-Python, like most programming languages has some basic math in it's Standard Library. The four symbols, `+' `-' `*' and `/' are used with both variables an constants alike.
+\section{Basic Operations}
+Python, like most programming languages has some basic math in it's Standard Library. The four operators viz. `+' `-' `*' and `/' are used with both variables an constants alike.
 \\ \\ NB: A more comprehensive list of mathematical functions(among others) can be found at the end of the book in Appendix B\\ \\
  For example to find and print the product of 256 and 456, we can use:
 \begin{quote}
@@ -115,18 +115,22 @@ As explained before, the  \emph{print()} function takes both variables and strin
 \begin{quote}
 num=234\\
 dividend=2\\
-print("The quotient produced by the division of",num,"and",dividend,"is",num/dividend)
+print("The quotient of",num,"and",dividend,"is",num/dividend)
 \end{quote}
 would return:
 \begin{quote}
 117.0
 \end{quote}
 
+In the above script, we used \emph{num/dividend}, 
 Note that the shell returns 117.0 and not 117. In Python, the presence of a decimal is indicative of the number being a /emph{floating point} number(It will be covered later on). In short, it cannot be compared to an integer (A number without a decimal point).
+
 \newpage	
 \section{Excercise}
 \begin{enumerate}
 \item Write a program to convert \emph{Celsius} to\emph{Fahrenhiet} for the given temperatures $t=45^{\circ}$C and $t=-40^{\circ}$C.
-\item Write a program that calculates the average of three numbers $189086,127809,1567801$.
+\item Write a program that calculates the average of three numbers 189086, 127809, 1567801.
 \end{enumerate}
+
+
 
