@@ -87,28 +87,32 @@ The entire process can be described as:
 \\
 In Python, all variables are not \emph{declared}, they are \emph{assigned}. This highlights the fact that Python is Dynamically typed.\\ Dynamically typed means that the type of a variable is checked during run-time, and not during \emph{declaration}. \\ \\ 
 NB: A language is statically-typed if the type of a variable is known at compile-time instead of at run-time. A more comprehensive list of differences can be found in Appendix A
+\\ \\
+
+We may also print multiple variables at the same time, as with strings, in a similiar fashion. For example:
+\begin{quote}
+var1="abc"\\
+var2="def"\\
+print(var1,var2)
+\end{quote}
+
+Which would return 
+\begin{quote}
+abc def
+\end{quote}
+
 \section{Arithmetic}
-Python, like most programming languages has basic math in it's Standard Library. The four symbols, `+' `-' `*' and `/' are used with both variables an constants.
-\\ \\ NB: A more comprehensive list of fufunctions can be found at the endo of the book in Appendix B\\ \\
+Python, like most programming languages has some basic math in it's Standard Library. The four symbols, `+' `-' `*' and `/' are used with both variables an constants alike.
+\\ \\ NB: A more comprehensive list of mathematical functions(among others) can be found at the end of the book in Appendix B\\ \\
  For example to find and print the product of 256 and 456, we can use:
 \begin{quote}
 a=256\\b=456\\c=a*b\\print(c)
 \end{quote}
-The  \emph{print()} function takes both variables and strings as inputs and can concatenate the values of both inplace. thus, to give more clarity to the end user, a statement may also be included. for example, to calculate the value of 234*235 and give a statement about the same, the following two scripts may be used
-\begin{quote}
-a=256\\b=456\\print("The product of the given variables is" ,  a*b)
-\end{quote}
-or
-\begin{quote}
-a=256\\b=456\\c="The product of the given variables is"  \\print(c,a*b)
-\end{quote}
-Multiple such variables may be referred so, a similiar but better program can also list the values that are being multiplied by name, ie.  
-\begin{quote}
-a=256\\b=456\\print("The product of " , a ,",", b ,"is" ,  a*b)
-\end{quote}
+The  \emph{print()} function takes both variables and strings as inputs and can concatenate the values of both inplace. thus, to give more clarity to the end user, a statement can also be included. For example, to calculate the value of $234\times 235$ and give a statement about the same, the following two scripts may be used
+\newpage	
 \section{Excercise}
 \begin{enumerate}
-\item Write a program to convert \emph{Celsius} to\emph{Fahrenhiet} for a given temperature $t=45^{\circ}$C.
+\item Write a program to convert \emph{Celsius} to\emph{Fahrenhiet} for the given temperatures $t=45^{\circ}$C and $t=-40^{\circ}$C.
 \item Write a program that calculates the average of three numbers $189086,127809,1567801$.
 \end{enumerate}
 
