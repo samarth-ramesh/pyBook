@@ -1,6 +1,6 @@
 \chapter{Hello World}
 Python is a programming language, developed by the Python Software Foundation and released under the PSFL License. I quote Wikipedia: \begin{quotation}
-`Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+`Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant white space. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
 \end{quotation}
 For those who have never programmed in their lives, Python offers an easy in of sorts, as the language is very easy to both read and use.
 \section{Python installed?}
@@ -20,7 +20,7 @@ operable program or batch file.
 \end{quote}
 then, you don't have a copy of Python on your computer.
 To install Python, go to www.python.org/downloads/ and follow the instructions\\
-Now that all of us have Python installed on our computrs, we may begin or exploration of the language.
+Now that all of us have Python installed on our computers, we may begin or exploration of the language.
 \section{First program}
 Finally, our first program. Our aim is to print the statement "Hello World" (Interestingly, the tradition began with Ritchie \& Kerningham's book `The C Programming Language')\begin{quote}
 print("Hello World!")
@@ -68,7 +68,7 @@ print("Hello World!")\\
 print("Hoorah!!")
 \end{quote}
 But the former is preferred for the sake of brevity.\\
-In a similiar manner, we may also format output with "\textbackslash t" to force a new tab, and "\textbackslash r" to force the cursor to return to the start of the line.\\
+In a similar manner, we may also format output with "\textbackslash t" to force a new tab, and "\textbackslash r" to force the cursor to return to the start of the line.\\
 It is useful to know that "\textbackslash" character is also called an "Escape Character", that converts a special(reserved) symbol into an ordinary character.
 \section{Variable Variables}
 Now that we have started using the \emph{print()} function, we may further explore it.\\
@@ -83,15 +83,15 @@ Hello World, I am a variable
 \end{quote}
 The variable can the be reset to another value if needed.\\ In short, a single 'equals' mark indicates assignment of a variable.
 The entire process can be described as: 
-\begin{figure}[h]
-\includegraphics[scale=0.25, right]{variableflowchart}
+\begin{figure}[hbt]
+\includegraphics[scale=0.25]{flowchart}
 \end{figure}
 \\
 In Python, all variables are not \emph{declared}, they are \emph{assigned}. This highlights the fact that Python is Dynamically typed.\\ Dynamically typed means that the type of a variable is checked during run-time, and not during \emph{declaration}. \\ \\ 
 NB: A language is statically-typed if the type of a variable is known at compile-time instead of at run-time. A more comprehensive list of differences can be found in Appendix A
 \\ \\
 
-We may also print multiple variables and/or strings at the same time, as with strings, in a similiar fashion. For example:
+We may also print multiple variables and/or strings at the same time, as with strings, in a similar fashion. For example:
 \begin{quote}
 var1="abc"\\
 var2="def"\\
@@ -110,7 +110,11 @@ Python, like most programming languages has some basic math in it's Standard Lib
 \begin{quote}
 a=256\\b=456\\c=a*b\\print(c)
 \end{quote}
-As explained before, the  \emph{print()} function takes both variables and strings as inputs concatenates the values of both inplace.This, allows us to easily dot the i's and cross the t's. For example, to calculate the value of $234/2$ and print it's value, the following scipt can be used:
+The shell would return:
+\begin{quote}
+    116736
+\end{quote}
+As explained before, the  \emph{print()} function takes both variables and strings as inputs concatenates the values of both in place.This allows us to easily `dot the i's and cross the t's '. For example, to calculate the value of $234/2$ and print it's value, the following script can be used:
 
 \begin{quote}
 num=234\\
@@ -126,9 +130,9 @@ In the above script, we used \emph{num/dividend},
 Note that the shell returns 117.0 and not 117. In Python, the presence of a decimal is indicative of the number being a /emph{floating point} number(It will be covered later on). In short, it cannot be compared to an integer (A number without a decimal point).
 
 \newpage	
-\section{Excercise}
+\section{Exercises}
 \begin{enumerate}
-\item Write a program to convert \emph{Celsius} to\emph{Fahrenhiet} for the given temperatures $t=45^{\circ}$C and $t=-40^{\circ}$C.
+\item Write a program to convert \emph{Celsius} to\emph{Fahrenheit} for the given temperatures $t=45^{\circ}$C and $t=-40^{\circ}$C.
 \item Write a program that calculates the average of three numbers 189086, 127809, 1567801.
 \end{enumerate}
 
