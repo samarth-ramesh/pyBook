@@ -1,0 +1,26 @@
+\chapter{More Controlling}
+So far, we have completed the bread and butter of basic programs, the if's, the else's and the for's…\newline
+Now, we shall take on some more useful peices of control flow, namely \emph{while}, \emph{break}, \emph{continue}
+\section{While Loops}
+While loops are the bread and butter of infinite loops, most commonly seen in games and the like, where valid user input is needed.
+\subsection{Syntax}
+Like the for loop, and the conditional, the while loop too creates a new code block.
+The syntax for a while loop is as follows:
+\begin{quote}
+while (condition): \newline
+\tab \textlangle{}your code here\textrangle{}
+\end{quote}
+Note the use of \emph{:} and an additional indentation.
+
+\subsection{Usage}
+To calculate the mean of the first 100 numbers, we can use
+\begin{quote}
+x = 1 \newline
+sum = 0 \newline
+while x $<$ 101: $\#$note the use of 101, rather than $<$= 100 \newline
+\tab sum = sum + x \newline
+\tab x = x + 1 \newline
+print(sum/100)
+\end{quote}
+
+Now, Try to rewrite the Fahrenhiet to Celsius convertor using a while loop
