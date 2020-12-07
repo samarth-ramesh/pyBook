@@ -1,6 +1,5 @@
-\chapter{More Controlling}
-So far, we have completed the bread and butter of basic programs, the if's, the else's and the for's…\newline
-Now, we shall take on some more useful peices of control flow, namely \emph{while}, \emph{break}, \emph{continue}
+\chapter{While Loops}
+In this chapter, we shall discuss the bread and butter of control structure, the \emph{while} loop. 
 \section{While Loops}
 While loops are the bread and butter of infinite loops, most commonly seen in games and the like, where valid user input is needed.
 \subsection{Syntax}
@@ -23,4 +22,49 @@ while x $<$ 101: $\#$note the use of 101, rather than $<$= 100 \newline
 print(sum/100)
 \end{quote}
 
-Now, Try to rewrite the Fahrenhiet to Celsius convertor using a while loop
+\subsection{Explanation}
+The while loop simply put executes the code within it's code block until such a time that the condition evaluates to False. (Note, if the condition evaluates to false at the starting, the code within never gets executed. To ensure that the code executes atleast once, use \emph{do…while})\newline
+Below, you can see a pictographic representation of the while loop\newline \newline
+\input{./whileLoop.tex} \newline
+
+\subsection{Examples}
+\begin{enumerate}
+\item Convert all integral values of celsius into fahrenhiet between 0 and 100 both included.
+
+
+We can solve this problem in many different ways. Since we are discussing \emph{while} loops, we will use it to solve our problem.
+\begin{quote}
+x = 0 \newline
+FtoCFactor = 1/1.8 \newline
+while (x $<$ 101):\newline
+\tab print('The Fahranhiet equivalent of', x, 'is', ((x-32)/FtoCFactor))\newline
+\tab x = x+1 \# Note, we can also use x += 1 \newline
+\end{quote}
+A note about the 5\textsuperscript{th} line, We used $x = x + 1$ because Without it, the while loop will never terminate (because x will never increase)
+
+\item Print out all the possible IPv4 addresses of the form $192.168.0.x$ and $192.168.1.y$
+
+IPv4 addresses are basically 4 numbers between 0 and 255 (both included) seperated by dots.
+Some famous IPv4 addresses include 127.0.0.1 (the loopback address), 8.8.8.8 (google public dns) and 192.168.0.1 (a standard home network router IP address)
+
+We can as always solve this problem in multiple different ways. Since we are asked to find \emph{two} subnets that are very close to each other, we can use a while loop for the inner prefix. Similiarly, we can use a \emph{nested while loop} for the outer prefix.
+
+\begin{quote}
+net = '192.168.' \newline
+counter1 = 0 \newline
+counter2 = 0 \newline
+while (counter1 $<$ 2): \newline
+\tab while (counter2 $<$ 256): \newline
+\tab \tab print(net + counter1 + '.' + counter2) \newline
+\tab \tab counter2 += 1 \newline 
+\tab counter1 += 1 \newline
+\end{quote}
+And there you have a nested while loop, the bread and butter of many algorithms.
+\end{enumerate}
+\newpage
+\subsection{Excercises}
+
+\begin{enumerate}
+\item Write a script to calculate the n\textsuperscript{th} power of 8 (for the purposes of testing, use $n=9$), using a while loop
+\item Write a script to calculate the factorial of 15. (n factorial = $1\times 2\times 3...(n-1)\times (n)$)
+\end{enumerate}

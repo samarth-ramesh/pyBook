@@ -1,9 +1,14 @@
 \synctex=1
-\documentclass[12pt,a4paper]{book}
+\documentclass[12pt,a4paper, x11names]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{draftwatermark}
 \usepackage{textcomp}
+%\definecolor{Green3}{RGB}{0,255,0}
+%\definecolor{Blue3}{RGB}{0,0,255}
+%\definecolor{Red3}{RGB}{255,0,0}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,chains}
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 \title{Python, an introduction}
 \author{Samarth Ramesh}
@@ -11,6 +16,12 @@
 \usepackage{graphicx}
 \graphicspath{{images/}}
 \begin{document}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
 \maketitle
 \SetWatermarkText{Draft}
 \SetWatermarkScale{5}
